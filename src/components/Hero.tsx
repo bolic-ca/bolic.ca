@@ -38,7 +38,7 @@ export default function Hero() {
           <span className="text-bolic-accent">Track harder.</span>
         </h1>
         <p className="mb-8 max-w-lg text-lg text-bolic-muted">
-          Hypertrophy focused workout tracking app. Helps you keep track of your progress, following the most optimal methods. 
+          Hypertrophy focused workout tracking app. Helps you keep track of your progress, following the most optimal methods. Completely free and open source.
           </p>
         <div className="flex flex-wrap items-center gap-4">
           <a
