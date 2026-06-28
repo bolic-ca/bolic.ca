@@ -14,11 +14,11 @@ export default function Header() {
         <Brand />
       </a>
       <nav className="flex gap-7" aria-label="Primary">
-        <a href="#features" className="text-sm font-medium text-bolic-muted transition-colors hover:text-bolic-accent">
-          Features
+        <a href="/support" className="text-sm font-medium text-bolic-muted transition-colors hover:text-bolic-accent">
+          Support
         </a>
-        <a href="#app" className="text-sm font-medium text-bolic-muted transition-colors hover:text-bolic-accent">
-          The App
+        <a href="/privacy-policy" className="text-sm font-medium text-bolic-muted transition-colors hover:text-bolic-accent">
+          Privacy
         </a>
       </nav>
     </header>

@@ -18,6 +18,12 @@ export default function Footer() {
             </svg>
             GitHub
           </a>
+          <a href="/support" className="text-sm text-bolic-muted transition-colors hover:text-bolic-accent">
+            Support
+          </a>
+          <a href="/privacy-policy" className="text-sm text-bolic-muted transition-colors hover:text-bolic-accent">
+            Privacy Policy
+          </a>
           <p className="text-sm text-bolic-muted">&copy; {new Date().getFullYear()} Bolic. All rights reserved.</p>
         </div>
       </div>
