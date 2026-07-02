@@ -35,6 +35,6 @@ Output goes to `dist/`.
 
 Colors and copy sourced from [Bolic.App](../Bolic.App):
 
-- Accent: `#f97316` (athletic orange)
+- Accent: `#dc2626` (brand red)
 - Tagline: *Your personal training companion*
 - Features: offline tracking, progress analytics, science-based programs
