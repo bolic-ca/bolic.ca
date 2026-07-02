@@ -8,7 +8,7 @@ const sections = [
   },
   {
     heading: 'Data You Create',
-    body: 'Workout programs, exercises, training sessions, statistics, personal records, and app preferences that you create are stored locally on your device only, using the device\'s standard on-device storage. This data never leaves your device unless you explicitly export it.',
+    body: 'Workout programs, exercises, training sessions, statistics, and app preferences that you create are stored locally on your device only, using the device\'s standard on-device storage. This data never leaves your device unless you explicitly export it.',
   },
   {
     heading: 'Anonymous Identifier',

@@ -43,7 +43,7 @@ export default function Hero() {
         <div className="flex flex-wrap items-center gap-4">
           <a
             href="#app"
-            className="inline-flex items-center justify-center rounded-[10px] bg-gradient-to-br from-bolic-accent to-bolic-accent-hover px-7 py-3.5 text-[0.95rem] font-semibold text-white shadow-[0_8px_24px_rgba(249,115,22,0.22)] transition hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(249,115,22,0.28)]"
+            className="inline-flex items-center justify-center rounded-[10px] bg-gradient-to-br from-bolic-accent to-bolic-accent-hover px-7 py-3.5 text-[0.95rem] font-semibold text-white shadow-[0_8px_24px_rgba(220,38,38,0.22)] transition hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(220,38,38,0.28)]"
           >
             See the app
           </a>
@@ -56,14 +56,14 @@ export default function Hero() {
       <div className="relative min-h-[340px] lg:min-h-[420px]">
         <div
           className="absolute inset-[10%_5%] blur-[40px]"
-          style={{ background: 'radial-gradient(ellipse at center, rgba(249,115,22,0.22) 0%, transparent 70%)' }}
+          style={{ background: 'radial-gradient(ellipse at center, rgba(220,38,38,0.22) 0%, transparent 70%)' }}
           aria-hidden="true"
         />
         <StatCard
           label="Current Streak"
           value="12"
           unit="days"
-          colorClass="text-bolic-coral"
+          colorClass="text-bolic-accent"
           className="left-[5%] top-[8%]"
         />
         <StatCard
@@ -75,9 +75,9 @@ export default function Hero() {
           delay="-2s"
         />
         <StatCard
-          label="Personal Record"
-          value="315"
-          unit="lbs × 5"
+          label="Workouts Logged"
+          value="21"
+          unit="sessions"
           colorClass="text-bolic-gold"
           className="bottom-[8%] left-[18%]"
           delay="-4s"
