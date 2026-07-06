@@ -33,9 +33,8 @@ export default function Hero() {
           Science Based Workout Tracking App
         </p>
         <h1 className="mb-5 font-display text-5xl font-extrabold uppercase leading-[0.95] sm:text-6xl lg:text-7xl">
-          Train smarter.
+          Keep the focus on training 
           <br />
-          <span className="text-bolic-accent">Track harder.</span>
         </h1>
         <p className="mb-8 max-w-lg text-lg text-bolic-muted">
           Hypertrophy focused workout tracking app. Helps you keep track of your progress, following the most optimal methods. Completely open source.

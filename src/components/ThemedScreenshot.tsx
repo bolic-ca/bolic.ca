@@ -11,13 +11,13 @@ export default function ThemedScreenshot({ id, alt, className = '', loading = 'l
   return (
     <>
       <img
-        src={`/screenshots/${id}-light.png`}
+        src={`/screenshots/${id}-light.PNG`}
         alt={alt}
         loading={loading}
         className={`dark:hidden ${className}`}
       />
       <img
-        src={`/screenshots/${id}-dark.png`}
+        src={`/screenshots/${id}-dark.PNG`}
         alt={alt}
         loading={loading}
         className={`hidden dark:block ${className}`}
