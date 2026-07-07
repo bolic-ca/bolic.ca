@@ -33,9 +33,8 @@ export default function Hero() {
           Science Based Workout Tracking App
         </p>
         <h1 className="mb-5 font-display text-5xl font-extrabold uppercase leading-[0.95] sm:text-6xl lg:text-7xl">
-          Train smarter.
+          Keep the focus on training 
           <br />
-          <span className="text-bolic-accent">Track harder.</span>
         </h1>
         <p className="mb-8 max-w-lg text-lg text-bolic-muted">
           Hypertrophy focused workout tracking app. Helps you keep track of your progress, following the most optimal methods. Completely open source.
@@ -53,7 +52,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative min-h-[340px] lg:min-h-[420px]">
+      <div className="relative mx-auto min-h-[340px] w-full max-w-md lg:min-h-[420px]">
         <div
           className="absolute inset-[10%_5%] blur-[40px]"
           style={{ background: 'radial-gradient(ellipse at center, rgba(220,38,38,0.22) 0%, transparent 70%)' }}
@@ -64,7 +63,7 @@ export default function Hero() {
           value="12"
           unit="days"
           colorClass="text-bolic-accent"
-          className="left-[5%] top-[8%]"
+          className="left-0 top-[8%]"
         />
         <StatCard
           label="Total Volume"
@@ -79,7 +78,7 @@ export default function Hero() {
           value="21"
           unit="sessions"
           colorClass="text-bolic-gold"
-          className="bottom-[8%] left-[18%]"
+          className="bottom-[8%] left-[12%]"
           delay="-4s"
         />
       </div>
