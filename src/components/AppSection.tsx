@@ -14,28 +14,35 @@ const slides: Slide[] = [
     label: 'Dashboard',
     title: 'Everything ready before the first rep',
     description:
-      'Your upcoming workout and recent session history are waiting the moment you open Bolic. No setup, no hunting around.',
+      'Quick views of previous sessions. Look back at the last completed session and previous same session.',
   },
   {
     id: 'program',
     label: 'Programs',
     title: 'Programs built the way you actually train',
     description:
-      'Design simple or periodized structures with flexible training days. Build the program once, follow it for months.',
+      'Design simple tructures with flexible training days, with periodized program support in the future. Build the program once, follow it for months.',
   },
   {
     id: 'exercises',
     label: 'Exercise library',
     title: 'Every movement, fully detailed',
     description:
-      'Browse your full exercise library with target sets, reps, RPE, RIR, and personal technique notes — all in one place per movement.',
+      'Browse your full exercise library with target sets, reps, RPE, RIR, quality, and personal technique notes',
   },
   {
     id: 'training-session',
     label: 'Live session',
     title: 'Log sets without breaking focus',
     description:
-      'A clean view built for the gym floor. Tap to record each set, reorder exercises mid-session, and never lose your place in the workout.',
+      'Tap to record each set, track the metrics that matter to you.',
+  },
+  {
+    id: 'training-session-differs',
+    label: 'Swap Exercises',
+    title: 'Keep a record of swaps',
+    description:
+      'Someone using the machine? Swap it out with a similar exercise. Do the original day, the same session, or the same session and updated it.',
   },
   {
     id: 'exercise-history',
@@ -50,6 +57,13 @@ const slides: Slide[] = [
     title: 'Honest numbers about your training',
     description:
       'Streaks, total volume, and weekly consistency — the metrics that tell you whether the work is actually adding up.',
+  },
+  {
+    id: 'create-exercise',
+    label: 'Exercise Data',
+    title: 'In-depth exercise data',
+    description:
+      'Categorize the details of your exercises. Included target reps, RIR, and target position.',
   },
 ]
 
