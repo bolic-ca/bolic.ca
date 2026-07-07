@@ -54,7 +54,7 @@ const slides: Slide[] = [
   {
     id: 'stats',
     label: 'Stats',
-    title: 'Honest numbers about your training',
+    title: 'numbers about your training',
     description:
       'Streaks, total volume, and weekly consistency — the metrics that tell you whether the work is actually adding up.',
   },
@@ -85,7 +85,7 @@ export default function AppSection() {
   return (
     <section id="app" className="py-16 lg:py-24">
       <div className="mx-auto max-w-6xl px-5 lg:px-12">
-        <div className="mb-12 lg:mb-16">
+        <div className="mx-auto mb-12 max-w-3xl text-center lg:mb-16">
           <p className="mb-2 font-display text-sm font-semibold uppercase tracking-[0.18em] text-bolic-accent">
             The App
           </p>
