@@ -46,9 +46,17 @@ export default function Hero() {
           >
             See the app
           </a>
-          <span className="rounded-full border border-bolic-border bg-bolic-elevated px-3.5 py-2 text-sm font-medium text-bolic-muted dark:border-bolic-border-dark dark:bg-bolic-elevated-dark">
-            iOS · Coming soon
-          </span>
+          <a
+            href="https://apps.apple.com/app/bolic/id6755925763"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-bolic-border bg-bolic-elevated px-3.5 py-2 text-sm font-medium text-bolic-muted transition-colors hover:border-bolic-accent hover:text-bolic-accent dark:border-bolic-border-dark dark:bg-bolic-elevated-dark"
+          >
+            <svg viewBox="0 0 448 512" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+              <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-77.7-19.7C63.3 141.2 4 183.5 4 269.9 4 321 22.7 374.5 45.8 411.6c19.8 31.8 46 67.5 78.9 66.2 31.3-1.2 43.1-20.4 80.9-20.4 36.6 0 47 20.4 80 20.4 33.3-.5 61-39 80-70.9 38.5-58.1 54.4-114.4 55-117.2-2.1-.7-101.7-38.1-101.9-151zM263.7 102.5c26.3-31.2 23.9-59.6 23.1-69.8-23.2 1.3-50 15.8-65.3 33.6-16.8 19-26.6 42.5-24.5 68.5 25.1 1.9 48-11 67.7-32.3z" />
+            </svg>
+            Download on the App Store
+          </a>
         </div>
       </div>
 
