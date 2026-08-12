@@ -33,7 +33,7 @@ Output goes to `dist/`.
 
 ## Branding
 
-Colors and copy sourced from [Bolic.App](../Bolic.App):
+Colors and copy sourced from [app](https://github.com/bolic-ca/app):
 
 - Accent: `#dc2626` (brand red)
 - Tagline: *Your personal training companion*

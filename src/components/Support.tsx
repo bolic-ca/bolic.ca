@@ -34,7 +34,7 @@ export default function Support() {
           </a>
 
           <a
-            href="https://github.com/bolic-ca/Bolic.App/issues/new"
+            href="https://github.com/bolic-ca/app/issues/new"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-5 rounded-2xl border border-bolic-line bg-bolic-surface p-6 transition hover:-translate-y-0.5 hover:border-bolic-muted-2"
@@ -46,7 +46,7 @@ export default function Support() {
             </div>
             <div className="min-w-0 flex-1">
               <p className="font-display text-base font-bold tracking-tight">GitHub Issue</p>
-              <p className="mt-0.5 truncate text-sm text-bolic-muted">github.com/bolic-ca/Bolic.App</p>
+              <p className="mt-0.5 truncate text-sm text-bolic-muted">github.com/bolic-ca/app</p>
             </div>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4 shrink-0 text-bolic-muted transition-transform group-hover:translate-x-0.5 group-hover:text-bolic-text" aria-hidden="true">
               <path d="M5 12h14M13 6l6 6-6 6" />
