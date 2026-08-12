@@ -1,4 +1,3 @@
-import ThemedScreenshot from './ThemedScreenshot'
 import type { ScreenshotId } from './screenshots'
 
 type Slide = {
@@ -69,13 +68,20 @@ const slides: Slide[] = [
 
 function PhoneFrame({ id, alt }: { id: ScreenshotId; alt: string }) {
   return (
-    <div className="w-[min(220px,52vw)] shrink-0 rounded-[40px] bg-bolic-text p-[10px] shadow-bolic dark:shadow-bolic-dark lg:w-[min(260px,22vw)]">
-      <div className="relative overflow-hidden rounded-[32px] bg-bolic-elevated dark:bg-bolic-elevated-dark">
-        <div
-          className="absolute left-1/2 top-3 z-10 h-[18px] w-[68px] -translate-x-1/2 rounded-full bg-bolic-text"
-          aria-hidden="true"
-        />
-        <ThemedScreenshot id={id} alt={alt} loading="lazy" className="block w-full" />
+    <div className="relative shrink-0">
+      <div
+        className="pointer-events-none absolute inset-4 rounded-[40px] blur-[45px] opacity-30"
+        style={{ background: 'radial-gradient(ellipse at 50% 35%, rgba(220,38,38,0.35) 0%, transparent 70%)' }}
+        aria-hidden="true"
+      />
+      <div className="relative w-[min(230px,54vw)] rounded-[40px] border border-bolic-line bg-black p-[9px] shadow-bolic lg:w-[min(250px,22vw)]">
+        <div className="relative overflow-hidden rounded-[32px] bg-bolic-surface">
+          <div
+            className="absolute left-1/2 top-2.5 z-10 h-[18px] w-[74px] -translate-x-1/2 rounded-full bg-black"
+            aria-hidden="true"
+          />
+          <img src={`/screenshots/${id}-dark.PNG`} alt={alt} loading="lazy" className="block w-full" />
+        </div>
       </div>
     </div>
   )
@@ -83,36 +89,32 @@ function PhoneFrame({ id, alt }: { id: ScreenshotId; alt: string }) {
 
 export default function AppSection() {
   return (
-    <section id="app" className="py-16 lg:py-24">
+    <section id="app" className="py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-5 lg:px-12">
-        <div className="mx-auto mb-12 max-w-3xl text-center lg:mb-16">
-          <p className="mb-2 font-display text-sm font-semibold uppercase tracking-[0.18em] text-bolic-accent">
-            The App
-          </p>
-          <h2 className="font-display text-4xl font-extrabold uppercase leading-none sm:text-5xl">
+        <div className="mb-16 max-w-3xl lg:mb-24">
+          <p className="eyebrow mb-4">The App</p>
+          <h2 className="font-display text-4xl font-extrabold leading-[0.95] tracking-tight sm:text-5xl lg:text-6xl">
             Your gym session,
             <br />
             fully dialed in
           </h2>
         </div>
 
-        <div className="flex flex-col gap-16 lg:gap-24">
+        <div className="flex flex-col gap-20 lg:gap-28">
           {slides.map((slide, i) => (
             <article
               key={slide.id}
-              className={`mx-auto flex w-full max-w-3xl flex-col items-center gap-8 lg:justify-center lg:gap-10 ${
+              className={`mx-auto flex w-full max-w-3xl flex-col items-center gap-10 lg:justify-center lg:gap-14 ${
                 i % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
               }`}
             >
               <PhoneFrame id={slide.id} alt={slide.title} />
               <div className="text-center lg:max-w-md lg:text-left">
-                <p className="mb-3 font-display text-xs font-semibold uppercase tracking-[0.2em] text-bolic-accent/80">
-                  {slide.label}
-                </p>
-                <h3 className="mb-4 font-display text-3xl font-extrabold uppercase leading-none sm:text-4xl">
+                <p className="eyebrow mb-4">{slide.label}</p>
+                <h3 className="mb-4 font-display text-3xl font-extrabold leading-[0.98] tracking-tight sm:text-4xl">
                   {slide.title}
                 </h3>
-                <p className="max-w-md text-[1.05rem] leading-relaxed text-bolic-muted">{slide.description}</p>
+                <p className="text-[1.05rem] leading-relaxed text-bolic-muted">{slide.description}</p>
               </div>
             </article>
           ))}

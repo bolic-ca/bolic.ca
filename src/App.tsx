@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <>
-      <div className="pointer-events-none fixed inset-0 z-[1000] opacity-[0.035] grain" aria-hidden="true" />
+      <div className="pointer-events-none fixed inset-0 z-[1000] opacity-[0.025] grain" aria-hidden="true" />
       <Header />
       <main>
         <Hero />
