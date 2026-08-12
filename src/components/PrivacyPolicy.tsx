@@ -35,15 +35,15 @@ const sections = [
 export default function PrivacyPolicy() {
   return (
     <>
-      <div className="pointer-events-none fixed inset-0 z-[1000] opacity-[0.035] grain" aria-hidden="true" />
+      <div className="pointer-events-none fixed inset-0 z-[1000] opacity-[0.025] grain" aria-hidden="true" />
       <Header />
       <main className="mx-auto max-w-2xl px-5 py-16 sm:px-12 sm:py-24">
-        <h1 className="font-display text-3xl font-extrabold uppercase tracking-wide sm:text-4xl">
+        <p className="eyebrow mb-5">Last updated: June 27, 2026</p>
+        <h1 className="font-display text-3xl font-extrabold tracking-tight sm:text-4xl">
           Privacy Policy
         </h1>
-        <p className="mt-2 text-sm text-bolic-muted dark:text-bolic-muted">Last updated: June 27, 2026</p>
 
-        <p className="mt-8 leading-relaxed text-bolic-text dark:text-bolic-text-dark">
+        <p className="mt-8 leading-relaxed text-bolic-muted">
           Bolic ("the app") is a workout tracking application. This Privacy Policy explains how the app handles your
           information. In short: Bolic is an offline-first app that stores all of your data on your own device. We do
           not collect, transmit, sell, or share your personal data.
@@ -51,16 +51,16 @@ export default function PrivacyPolicy() {
 
         {sections.map(({ heading, body }) => (
           <section key={heading} className="mt-10">
-            <h2 className="font-display text-lg font-bold uppercase tracking-wide">{heading}</h2>
-            <p className="mt-2 leading-relaxed text-bolic-text dark:text-bolic-text-dark">{body}</p>
+            <h2 className="font-display text-lg font-bold tracking-tight text-bolic-text">{heading}</h2>
+            <p className="mt-2 leading-relaxed text-bolic-muted">{body}</p>
           </section>
         ))}
 
         <section className="mt-10">
-          <h2 className="font-display text-lg font-bold uppercase tracking-wide">Contact</h2>
-          <p className="mt-2 leading-relaxed text-bolic-text dark:text-bolic-text-dark">
+          <h2 className="font-display text-lg font-bold tracking-tight text-bolic-text">Contact</h2>
+          <p className="mt-2 leading-relaxed text-bolic-muted">
             For questions about this Privacy Policy, contact:{' '}
-            <a href="mailto:support@bolic.ca" className="text-bolic-accent hover:underline">
+            <a href="mailto:support@bolic.ca" className="text-bolic-red hover:underline">
               support@bolic.ca
             </a>
           </p>
